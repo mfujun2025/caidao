@@ -264,6 +264,33 @@ a:hover { text-decoration: underline; }
   background: var(--red); border-color: var(--red); color: #fff;
 }
 
+/* ===== 产品图集 ===== */
+.gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.gallery-item {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  overflow: hidden; margin: 0; display: flex; flex-direction: column;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.gallery-item:hover { box-shadow: var(--shadow-lg); transform: translateY(-3px); }
+.gallery-item .img-wrap {
+  aspect-ratio: 4 / 5; display: flex; align-items: center; justify-content: center;
+  background: #f5f2ec; padding: 12px;
+}
+.gallery-item img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.gallery-item figcaption {
+  padding: 11px 12px; font-size: 13.5px; color: var(--muted); text-align: center;
+  border-top: 1px solid var(--line); line-height: 1.5;
+}
+.gallery-item figcaption strong { display: block; color: var(--ink); font-size: 14.5px; margin-bottom: 2px; }
+
+/* 详情页缩略图格 */
+.thumb-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 14px; }
+.thumb-row .thumb-item {
+  border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: #f5f2ec;
+  aspect-ratio: 4 / 5; display: flex; align-items: center; justify-content: center; padding: 8px;
+}
+.thumb-row img { max-width: 100%; max-height: 100%; object-fit: contain; }
+
 /* ===== 文章正文 ===== */
 .prose { max-width: 820px; margin: 0 auto; }
 .prose h1 { font-size: 32px; line-height: 1.35; font-weight: 800; margin: 18px 0 14px; }
