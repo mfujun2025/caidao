@@ -11,6 +11,21 @@
       var expanded = nav.classList.contains('open');
       toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
     });
+    // 点击导航链接后自动收起菜单（移动端）
+    nav.addEventListener('click', function (e) {
+      if (e.target.closest('a') && nav.classList.contains('open')) {
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+    // 点击菜单外部区域收起
+    document.addEventListener('click', function (e) {
+      if (!nav.classList.contains('open')) return;
+      if (!e.target.closest('.nav') && !e.target.closest('.nav-toggle')) {
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
   }
 
   // 文章中心分类筛选
