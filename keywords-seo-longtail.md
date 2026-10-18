@@ -5,11 +5,11 @@
 > 配套规范：文章结构遵循 SEO 大纲技能（H1 覆盖主词、开头两段直答、H2 覆盖追问长尾、结构化表格+FAQ、内链锚文本）。
 
 ## 一、按类型/用途分类
-- 厨房菜刀家用推荐
+- 厨房菜刀家用推荐（已覆盖：articles/chufang-caidao-jiayong-tuijian.html）
 - 厨师专用菜刀品牌
 - 切片刀和砍骨刀区别（已覆盖：articles/zhangu-dao-he-qiepian-dao-de-qubie.html）
 - 水果刀小菜刀推荐
-- 中式菜刀vs西式厨刀
+- 中式菜刀vs西式厨刀（已覆盖：articles/zhongshi-caidao-vs-xishi-chudao.html）
 - 多功能料理刀怎么选
 - 剁骨刀硬度和韧性平衡
 
@@ -32,17 +32,17 @@
 - 菜刀批发厂家渠道
 
 ## 四、按品牌分类
-- 王麻子菜刀怎么样
-- 张小泉菜刀口碑如何
-- 德国双立人菜刀值得买吗
+- 王麻子菜刀怎么样（已覆盖：articles/wangmazi-caidao-zenmeyang.html）
+- 张小泉菜刀口碑如何（已覆盖：articles/zhangxiaoquan-caidao-koubei.html）
+- 德国双立人菜刀值得买吗（已覆盖：articles/shuanglichen-caidao-zhidemai.html）
 - 日本堺刀司菜刀好吗
-- 国产菜刀十大品牌排名
-- 菜刀品牌对比评测
+- 国产菜刀十大品牌排名（已覆盖：articles/guochan-caidao-shida-pinpai.html）
+- 菜刀品牌对比评测（已覆盖：articles/caidao-pinpai-duibi-pingce.html）
 - 小众精品菜刀推荐
 
 ## 五、按规格/尺寸分类
-- 菜刀尺寸怎么选合适
-- 8寸菜刀适合家庭用吗
+- 菜刀尺寸怎么选合适（已覆盖：articles/caidao-chicun-zenme-xuan.html）
+- 8寸菜刀适合家庭用吗（已覆盖：articles/bacun-caidao-shihe-jiating.html）
 - 厨师刀和主厨刀区别
 - 菜刀重量轻重哪个好（部分覆盖：斩骨刀选购指南）
 - 小菜刀便携实用吗
@@ -59,9 +59,9 @@
 - 面包刀不锯齿设计
 
 ## 七、按保养/维护分类
-- 菜刀怎么磨锋利（部分覆盖：斩骨刀保养方法）
-- 磨刀石和磨刀器选择
-- 菜刀生锈了怎么处理
+- 菜刀怎么磨锋利（已覆盖：articles/caidao-zenme-mo-fengli.html）
+- 磨刀石和磨刀器选择（已覆盖：articles/modaoshi-he-modaoqi-xuanze.html）
+- 菜刀生锈了怎么处理（已覆盖：articles/caidao-shengxiu-zenme-chuli.html）
 - 菜刀保养方法大全（已覆盖：articles/zhangu-dao-baoyang.html）
 - 菜刀木柄开裂修复
 - 菜刀消毒杀菌方法
@@ -76,7 +76,7 @@
 - 网上买菜刀靠谱吗
 - 菜刀退换货注意事项
 
-## 已发布文章对照（截至 2026-10-18）
+## 已发布文章对照（截至 2026-10-18，共 20 篇）
 1. articles/zhangu-dao-zenme-xuan.html — 斩骨刀怎么选（主词：斩骨刀怎么选/家用斩骨刀）
 2. articles/zhangu-dao-he-qiepian-dao-de-qubie.html — 斩骨刀和切片刀的区别
 3. articles/jiayong-zhangu-dao-tuijian.html — 家用斩骨刀推荐：砍猪蹄牛骨选多厚
@@ -85,15 +85,27 @@
 6. articles/zhangu-dao-baoyang.html — 斩骨刀保养方法
 7. articles/5mm-jiahou-zhangu-dao.html — 5mm加厚斩骨刀怎么样
 8. articles/jiudian-shangyong-kan-dao.html — 酒店商用砍刀怎么选
+9. articles/chufang-caidao-jiayong-tuijian.html — 厨房菜刀家用推荐
+10. articles/wangmazi-caidao-zenmeyang.html — 王麻子菜刀怎么样
+11. articles/zhangxiaoquan-caidao-koubei.html — 张小泉菜刀口碑如何
+12. articles/shuanglichen-caidao-zhidemai.html — 德国双立人菜刀值得买吗
+13. articles/guochan-caidao-shida-pinpai.html — 国产菜刀十大品牌排名
+14. articles/caidao-pinpai-duibi-pingce.html — 菜刀品牌对比评测
+15. articles/zhongshi-caidao-vs-xishi-chudao.html — 中式菜刀vs西式厨刀
+16. articles/caidao-chicun-zenme-xuan.html — 菜刀尺寸怎么选合适
+17. articles/bacun-caidao-shihe-jiating.html — 8寸菜刀适合家庭用吗
+18. articles/caidao-zenme-mo-fengli.html — 菜刀怎么磨锋利
+19. articles/modaoshi-he-modaoqi-xuanze.html — 磨刀石和磨刀器选择
+20. articles/caidao-shengxiu-zenme-chuli.html — 菜刀生锈了怎么处理
 
 ## 后续选题优先级建议（高流量长尾优先）
-1. 厨房菜刀家用推荐（大流量主词，信息聚合型）
-2. 王麻子/张小泉菜刀怎么样（品牌对比，搜索量大）
-3. 菜刀怎么磨锋利 + 磨刀石选择（高需求教程）
-4. 菜刀生锈了怎么处理（场景痛点词）
-5. 中式菜刀vs西式厨刀（对比型，易出表格）
-6. 菜刀尺寸怎么选合适 / 8寸菜刀适合家庭用吗（规格词）
-7. 菜刀多少钱一把合适（购买决策词，可内接群接龙转化）
-8. 便宜菜刀容易断吗（避坑词，建立信任）
+1. 菜刀多少钱一把合适（购买决策词，可内接群接龙转化）
+2. 便宜菜刀容易断吗（避坑词，建立信任）
+3. 高碳钢菜刀容易生锈吗（材质痛点词）
+4. 陶瓷菜刀好用吗缺点（对比型，易出表格）
+5. 厨师专用菜刀品牌 / 专业厨师刀规格标准（专业向）
+6. 菜刀套装性价比推荐（组合购买词）
+7. 网上买菜刀靠谱吗（信任词，可内接群接龙）
+8. 钓鱼专用杀鱼刀 / 辅食刀宝宝专用（场景细分词）
 
 > 注意：品牌类文章涉及第三方品牌，写作时基于公开资料客观陈述、注明来源与更新日期，避免不实对比；涉及本站产品时内链到产品页或文章中心。
