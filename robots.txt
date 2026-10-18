@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://菜刀.cn/sitemap.xml
