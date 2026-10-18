@@ -30,4 +30,57 @@
       });
     });
   }
+
+  // 产品图集灯箱
+  var galleryItems = document.querySelectorAll('.masonry .gallery-item img');
+  if (galleryItems.length > 0) {
+    var lightbox = document.querySelector('.lightbox');
+    var lbImg = lightbox ? lightbox.querySelector('img') : null;
+    var lbCounter = lightbox ? lightbox.querySelector('.lb-counter') : null;
+    var current = 0;
+
+    function show(index) {
+      current = (index + galleryItems.length) % galleryItems.length;
+      var img = galleryItems[current];
+      var full = img.getAttribute('data-full') || img.currentSrc || img.src;
+      if (lbImg) {
+        lbImg.src = full;
+        lbImg.alt = img.alt;
+      }
+      if (lbCounter) lbCounter.textContent = (current + 1) + ' / ' + galleryItems.length;
+      if (lightbox) lightbox.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function hide() {
+      if (lightbox) lightbox.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    galleryItems.forEach(function (img, i) {
+      img.addEventListener('click', function () { show(i); });
+    });
+
+    var btnClose = lightbox ? lightbox.querySelector('.lb-close') : null;
+    var btnPrev = lightbox ? lightbox.querySelector('.lb-prev') : null;
+    var btnNext = lightbox ? lightbox.querySelector('.lb-next') : null;
+    if (btnClose) btnClose.addEventListener('click', hide);
+    if (btnPrev) btnPrev.addEventListener('click', function () { show(current - 1); });
+    if (btnNext) btnNext.addEventListener('click', function () { show(current + 1); });
+
+    // 点击空白处关闭
+    if (lightbox) {
+      lightbox.addEventListener('click', function (e) {
+        if (e.target === lightbox) hide();
+      });
+    }
+
+    // 键盘导航
+    document.addEventListener('keydown', function (e) {
+      if (!lightbox || !lightbox.classList.contains('open')) return;
+      if (e.key === 'Escape') hide();
+      if (e.key === 'ArrowLeft') show(current - 1);
+      if (e.key === 'ArrowRight') show(current + 1);
+    });
+  }
 })();
